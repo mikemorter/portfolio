@@ -42,6 +42,9 @@ p, ul, ol{
 article {
   background: #A4969B;
   opacity: 75%;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul {
