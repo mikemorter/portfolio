@@ -1,35 +1,37 @@
+/* background color */
+
 body {
-  background: #878C8F;
+  background: white;
 }
+/* header */
 
 header {
-  background: #655560;
+  background: black;
   text-align: center;
   margin: 0px 100px 0px 100px;
-  width: 600px;
   border-radius: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
+
+/* Main and headings */
 
 main {
   text-align: center;
 }
 
 h1 {
-  color: #878C8F;
+  color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 45px;
   margin-bottom: -20px;
 }
 
 h2 {
-  color: #FCF7FF;
+  color: black;
   padding-top: 20px;
 }
 
 h3 {
-  color: #878C8F;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   padding-bottom: 5px;
@@ -37,14 +39,13 @@ h3 {
 }
 
 p, ul, ol{
-  color: #FCF7FF;
+  color: black;
   padding-left: 50px;
   padding-right: 50px;
 }
 
 article {
-  background: #A4969B;
-  opacity: 75%;
+  background: rgb(252, 252, 252);
   width: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -65,14 +66,18 @@ ol {
   padding-left: 200px;
   text-align: left;
 }
+/* Psuedo Classes for links*/
 
-a:link {color: #FCF7FF}
-a:visited {color: #655560}
-a:hover {color: #878C8F}
-a:active {color: #C4CAD0}
+a:link {color: blue}
+a:visited {color: blueviolet}
+a:hover {color: white}
+a:active {color: red}
+
+/* Footer goes here */
 
 footer {
-  background: #655560;
+  background: black;
+  text-align: center;
   height: 25px;
   margin-top: 20px;
   margin-bottom: 20px;
