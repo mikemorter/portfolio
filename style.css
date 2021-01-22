@@ -9,6 +9,7 @@ header {
   background: black;
   text-align: center;
   margin: 0px 100px 0px 100px;
+  width: 600px;
   border-radius: 20px;
 }
 
@@ -81,4 +82,5 @@ footer {
   height: 25px;
   margin-top: 20px;
   margin-bottom: 20px;
+  width: 600px;
 }
