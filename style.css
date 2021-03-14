@@ -46,6 +46,7 @@ header nav ul li:last-child a {
 h2 {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
   font-weight: 400;
   padding-top: 20px;
 }
