@@ -1,6 +1,10 @@
-# portfolio
+# Portfolio
 
 This is my portfolio website. It will be a tool used to showcase the work I have done.
+
+## Tools
+* HTML5
+* CSS
 
 # Thanks
 
