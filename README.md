@@ -6,6 +6,6 @@ This is my portfolio website. It will be a tool used to showcase the work I have
 * HTML5
 * CSS
 
-# Thanks
+## Thanks
 
 Thank you to Thinkful for guiding me along this process.
