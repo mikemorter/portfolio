@@ -8,7 +8,7 @@ body {
 header h1 {
   color: black;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 48px;
   margin: 0;
   padding-top: 20px;
@@ -66,8 +66,11 @@ h4 {
   padding-top: 3px;
 }
 
-p, ul, ol{
+p,
+ul,
+ol {
   color: black;
+  font-size: medium;
 }
 
 article {
@@ -96,18 +99,17 @@ article {
 
 /* forms */
 
-form label {
-  display: block;
+/* form label {
+  width: 100%;
   font-size: 16px;
-  margin-bottom: 5px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+*/
 form textarea {
-  height: 4.75rem;
+  /* height: 4.75rem;
   width: 100%;
   color: #000;
-  font-size: 16px;
+  font-size: 16px; */
   margin-bottom: 20px;
 }
 
@@ -121,10 +123,18 @@ form button {
 
 /* Psuedo Classes for links*/
 
-a:link {color: black}
-a:visited {color: blueviolet}
-a:hover {color: blue}
-a:active {color: red}
+a:link {
+  color: black;
+}
+a:visited {
+  color: teal;
+}
+a:hover {
+  color: blue;
+}
+a:active {
+  color: red;
+}
 
 /* Footer goes here */
 
@@ -141,7 +151,7 @@ footer {
 @media all and (min-width: 600px) {
   header {
     display: flex;
-    Justify-content: space-between;
+    justify-content: space-between;
     padding: 0 30px;
   }
 
@@ -157,7 +167,7 @@ footer {
     margin-top: 8px;
   }
 
-  header nav ul li a{
+  header nav ul li a {
     color: white;
   }
 
@@ -173,5 +183,4 @@ footer {
     display: flex;
     flex-direction: row;
   }
-
 }
