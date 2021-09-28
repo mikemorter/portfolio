@@ -73,7 +73,7 @@ ol {
   font-size: medium;
 } */
 
-article {
+/* article {
   background: rgb(252, 252, 252);
 }
 
@@ -95,7 +95,7 @@ article {
 
 .group img {
   width: 100%;
-}
+} */
 
 /* forms */
 
@@ -105,13 +105,13 @@ article {
   font-family: Arial, Helvetica, sans-serif;
 }
 */
-form textarea {
+/* form textarea {
   /* height: 4.75rem;
   width: 100%;
   color: #000;
-  font-size: 16px; */
+  font-size: 16px; 
   margin-bottom: 20px;
-}
+} */
 /* 
 form button {
   padding: 10px 16px;
