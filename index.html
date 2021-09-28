@@ -18,20 +18,29 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <!-- CSS only -->
   </head>
+
   <body>
     <!--header goes here-->
     <header>
-      <h1>Mike Morter</h1>
-      <nav>
-        <ul id="menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid justify-content">
+          <h1>Mike Morter</h1>
+          <ul id="menu" class="nav justify-content-end">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
-
+    <br />
     <!--main starts here-->
     <main>
       <!--Intro Section-->
@@ -55,8 +64,8 @@
                 CO.
               </p>
               <p>
-                I love learning new things and meeting new people! Software
-                engineering has me excited to solve problems creatively, find
+                I love learning new things and meeting new people! Web
+                development has me excited to solve problems creatively, find
                 new solutions to everyday problems, and bring an exciting energy
                 to any team.
               </p>
@@ -82,9 +91,9 @@
               </p>
               <p>
                 Creativity is what drives me. Whether it is music, videography,
-                or engineering, I try to bring a creative aspect to everything.
-                This is why I have a passion for web development. There are so
-                many ways to express your creativity and expertise.
+                or web development, I try to bring a creative aspect to
+                everything. This is why I have a passion for web development.
+                There are so many ways to express your creativity and expertise.
               </p>
               <p>
                 Within all of my endeavors, I have been able to learn how to
@@ -109,9 +118,10 @@
 
       <!--Portfolio section-->
       <article>
-        <h2><a id="portfolio">Portfolio</a></h2>
+        
 
         <div class="container">
+          <h2><a id="portfolio">Portfolio</a></h2>
           <div class="row">
             <div class="col">
               <a href="https://mikemorter.github.io/Project_Local_Library_1/">
@@ -122,7 +132,7 @@
               /></a>
               <br />
               <a href="https://github.com/mikemorter/Project_Local_Library_1"
-                ><h2>Local Library</h2></a
+                ><h3>Local Library</h3></a
               >
               <p>
                 My neighborhood decided to put together a local library where
@@ -143,7 +153,7 @@
               /></a>
               <br />
               <a href="https://github.com/mikemorter/Project_Decoder_Ring_1"
-                ><h2>Decoder Ring</h2></a
+                ><h3>Decoder Ring</h3></a
               >
               <p>
                 This application showcases the tests and algorithms that I wrote
@@ -153,36 +163,41 @@
               </p>
             </div>
           </div>
-
-          <div class="group">
-            <div class="item">
-              <a href="https://github.com/mikemorter/restaurantreservation"
-                ><img
-                  src="images/Dashboard.png"
-                  class="img-thumbnail float-end"
-                  alt="A photo of the the dashboard to a restaurant app."
-              /></a>
-              <a href="https://github.com/mikemorter/restaurantreservation"
-                ><h2>Restaurant Reservation System</h2></a
-              >
-              <p>
-                This application was made for my capstone project for Thinkful
-                Flex Software Engineering course. It is a reservation system and
-                table manager to be used to track reservations as well as seat
-                reservations to tables while updating their progress. The entire
-                application was made to meet various user stories that the
-                Thinkful course defined.
-              </p>
-            </div>
-            <div class="item">
+        </div>
+<br />
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <a href="https://github.com/mikemorter/restaurantreservation"
+                  ><img
+                    src="images/Dashboard.png"
+                    class="img-thumbnail float-start"
+                    alt="A photo of the the dashboard to a restaurant app."
+                /></a>
+                <br />
+                <a href="https://github.com/mikemorter/restaurantreservation"
+                  ><h3>Restaurant Reservation System</h3></a
+                >
+                <p>
+                  This application was made for my capstone project for Thinkful
+                  Flex Software Engineering course. It is a reservation system
+                  and table manager to be used to track reservations as well as
+                  seat reservations to tables while updating their progress. The
+                  entire application was made to meet various user stories that
+                  the Thinkful course defined.
+                </p>
+              </div>
+            
+            <div class="col">
               <a href="#placeholder4"
                 ><img
                   src="images/FlashCard.png"
-                  class="img-thumbnai float-end"
+                  class="img-thumbnail float-end"
                   alt="A photo of the FlashCard app."
               /></a>
+              <br />
               <a href="#https://github.com/mikemorter/Flashcard"
-                ><h2>FlashCard</h2></a
+                ><h3>FlashCard</h3></a
               >
               <p>
                 This application was built for study purposes. The user is able
@@ -191,17 +206,20 @@
                 decks.
               </p>
             </div>
+            </div>
           </div>
         </div>
       </article>
+      <br />
 
       <!--Contact Section-->
       <article>
-        <h2><a id="contact">Contact</a></h2>
+        
 
         <div class="container">
+          <h2><a id="contact">Contact</a></h2>
           <div class="row">
-            <div class="col">
+            <div class="col mb-3">
               <form action="https://formspree.io/f/xqkgrgby" method="post">
                 <div class="">
                   <div>
@@ -274,7 +292,7 @@
     <!--Footer Goes Here-->
     <footer>
       <div>
-        <h3>Mike Morter 2021</h3>
+        <h4 class="text-center">Mike Morter 2021</h4>
       </div>
     </footer>
 
