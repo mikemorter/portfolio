@@ -7,3 +7,5 @@ This is my portfolio website. I have highlighted some of the projects that I hav
 - HTML5
 - CSS
 - Bootstrap
+
+## [Link to Website](https://mikemorter.github.io/portfolio/)
